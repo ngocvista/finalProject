@@ -1,0 +1,255 @@
+{
+  "account": [
+    {
+      "id": "46dc",
+      "userName": "admin",
+      "email": "admin@admin",
+      "score": 0,
+      "password": "123456",
+      "role": 0
+    }
+  ],
+  "roomtypes": [
+    {
+      "id": "67fd",
+      "name": "Phòng Standard",
+      "description": "STD"
+    },
+    {
+      "id": "18c8",
+      "name": "Phòng Superior",
+      "description": "SUP"
+    },
+    {
+      "id": "e311",
+      "name": "Phòng Deluxe",
+      "description": "DLX"
+    },
+    {
+      "id": "16u7",
+      "name": "Phòng Suite",
+      "description": "SUT"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "a229",
+      "image": "https://dyf.vn/wp-content/uploads/2021/11/noi-that-khach-san-5-sao-2.jpg",
+      "price": 1000000,
+      "description": "Phòng Standard tiêu chuẩn",
+      "location": "Tầng 1",
+      "categoryId": "67fd",
+      "name": "Phòng 101"
+    },
+    {
+      "id": "h4g8",
+      "image": "https://dyf.vn/wp-content/uploads/2021/11/noi-that-khach-san-5-sao-2.jpg",
+      "price": 1100000,
+      "description": "Phòng Standard tiêu chuẩn",
+      "location": "Tầng 1",
+      "categoryId": "67fd",
+      "name": "Phòng 102"
+    },
+    {
+      "id": "g4h8",
+      "image": "https://dyf.vn/wp-content/uploads/2021/11/noi-that-khach-san-5-sao-2.jpg",
+      "price": 1200000,
+      "description": "Phòng Standard tiêu chuẩn",
+      "location": "Tầng 1",
+      "categoryId": "67fd",
+      "name": "Phòng 103"
+    },
+    {
+      "id": "k3f8",
+      "image": "https://media.danitel.vn/uploads/2023/07/7c8bbfcb-13d2-49cd-9a00-0a49bf6d25a2/superior-03.jpg?width=1900&height=1267",
+      "price": 1500000,
+      "description": "Phòng Superior cao cấp hiện đại",
+      "location": "Tầng 2",
+      "categoryId": "18c8",
+      "name": "Phòng 201"
+    },
+    {
+      "id": "xch5",
+      "image": "https://media.danitel.vn/uploads/2023/07/7c8bbfcb-13d2-49cd-9a00-0a49bf6d25a2/superior-03.jpg?width=1900&height=1267",
+      "price": 1600000,
+      "description": "Phòng Superior cao cấp hiện đại",
+      "location": "Tầng 2",
+      "categoryId": "18c8",
+      "name": "Phòng 202"
+    },
+    {
+      "id": "cj4e",
+      "image": "https://media.danitel.vn/uploads/2023/07/7c8bbfcb-13d2-49cd-9a00-0a49bf6d25a2/superior-03.jpg?width=1900&height=1267",
+      "price": 1700000,
+      "description": "Phòng Superior cao cấp hiện đại",
+      "location": "Tầng 2",
+      "categoryId": "18c8",
+      "name": "Phòng 203"
+    },
+    {
+      "id": "any6",
+      "image": "https://ezcloud.vn/wp-content/uploads/2023/03/phong-deluxe-la-gi.webp",
+      "price": 2000000,
+      "description": "Phòng Deluxe thượng hạng",
+      "location": "Tầng 3",
+      "categoryId": "e311",
+      "name": "Phòng 301"
+    },
+    {
+      "id": "ayi8",
+      "image": "https://ezcloud.vn/wp-content/uploads/2023/03/phong-deluxe-la-gi.webp",
+      "price": 2200000,
+      "description": "Phòng Deluxe thượng hạng",
+      "location": "Tầng 3",
+      "categoryId": "e311",
+      "name": "Phòng 302"
+    },
+    {
+      "id": "aqr6",
+      "image": "https://ezcloud.vn/wp-content/uploads/2023/03/phong-deluxe-la-gi.webp",
+      "price": 2100000,
+      "description": "Phòng Deluxe thượng hạng",
+      "location": "Tầng 3",
+      "categoryId": "e311",
+      "name": "Phòng 303"
+    },
+    {
+      "id": "q3t6",
+      "image": "https://www.hoteljob.vn/files/Anh-Hoteljob-Ni/Nam-2020/Thang-10/phong-suite-la-gi-01.jpg",
+      "price": 3000000,
+      "description": "Phòng Suite VIP",
+      "location": "Tầng 4",
+      "categoryId": "16u7",
+      "name": "Phòng 401"
+    },
+    {
+      "id": "vhj7",
+      "image": "https://ezcloud.vn/wp-content/uploads/2023/10/president-suite-la-gi.webp",
+      "price": 3500000,
+      "description": "Phòng President Suite",
+      "location": "Tầng 5",
+      "categoryId": "16u7",
+      "name": "Phòng 501"
+    }
+  ],
+  "booking": [
+    {
+      "id": "190f",
+      "bookingName": "Vũ Hồng Ngọc",
+      "bookingEmail": "ngocvh105@gmail.com",
+      "bookingPhone": "0835778789",
+      "checkInDate": "2023-11-25",
+      "checkOutDate": "2023-11-27",
+      "bookingRoomId": "a229",
+      "bookingStatus": 0
+    },
+    {
+      "id": "03e4",
+      "bookingName": "123",
+      "bookingEmail": "123@123",
+      "bookingPhone": "123",
+      "checkInDate": "2024-08-02",
+      "checkOutDate": "2024-08-01",
+      "bookingRoomId": "123"
+    },
+    {
+      "id": "2e32",
+      "bookingName": "123",
+      "bookingEmail": "123@gmail.com",
+      "bookingPhone": "123",
+      "checkInDate": "2024-08-10",
+      "checkOutDate": "2024-08-11",
+      "bookingRoomId": "123"
+    },
+    {
+      "id": "17b1",
+      "bookingName": "123",
+      "bookingEmail": "12345@gmail.com",
+      "bookingPhone": "123",
+      "checkInDate": "2024-08-02",
+      "checkOutDate": "2024-07-30",
+      "bookingRoomId": "123"
+    },
+    {
+      "id": "c5c6",
+      "bookingName": "ngọc",
+      "bookingEmail": "ngoc@gmail.com",
+      "bookingPhone": "0123456789",
+      "checkInDate": "2024-07-06",
+      "checkOutDate": "2024-07-07",
+      "bookingRoomId": "101"
+    }
+  ],
+  "news": [
+    {
+      "id": "2f2d",
+      "topic": "Thế giới",
+      "title": "Chiến sự Ukraine 5/7: Nga bất ngờ tấn công thọc sườn ở New York và Toretsk",
+      "newsImage": "https://cdnphoto.dantri.com.vn/K3PThkRe8wDTueMPl55xcOsgVhY=/thumb_w/1020/2024/07/05/skynews-azovstal-mariupol-ukraine5762168-1720146261920.jpg",
+      "description": "(Dân trí) - Ba mũi tấn công mạnh mẽ của Nga đang khép chặt vòng vây với quân Ukraine trên trục New York - Toretsk ở Donetsk. Lực lượng của Moscow cũng đang đạt được những thành công tại phía đông Druzhba.\nNga tấn công thọc sườn, Ukraine bị bất ngờ\n\nKênh Military Summary đưa tin, trong ngày qua, lực lượng Moscow đã mở một mặt trận khác theo hướng Kharkov đồng thời nhanh chóng chiếm được làng Sotnickyi Kozachok, theo các nguồn tin Ukraine.\n\nTại New York trên mặt trận Donetsk, quân đội Nga tiếp tục tiến lên, giành được chỗ đứng ở quận Petrivske Hora. Bằng việc cùng lúc mở 3 mũi tấn công mạnh mẽ, họ đang khép chặt vòng vây với đối phương trên trục New York - Toretsk. Binh sĩ Nga cũng đang giành được những thành công ở phía đông Druzhba ở tây bắc Toretsk.\n\nĐoạn video được Tướng Alexander Syrsky, Tổng tư lệnh Ukraine chia sẻ, cho thấy quân Nga đã tiến vào khu cao tầng ở Pivnichne. Không rõ đây là một cuộc tấn công trực diện hay các tòa nhà dân sự xung quanh cũng đã bị binh sĩ đối phương kiểm soát.\n\nTrên mặt trận Avdiivka, quân đội Nga được cho là đã tiến về phía bắc Sokil, chiếm được nhiều vị trí hơn, theo báo cáo của Ukraine. Lực lượng Moscow bây giờ chỉ còn cách những ngôi làng bên cạnh vài trăm mét.\n\nỞ Odessa, một sân bay khác của Ukraine được cho là đã bị tấn công, khiến đây trở thành sân bay thứ tư bị tập kích trong vòng vài ngày qua.\nKênh Readovka cho biết, theo hướng Toretsk, quân đội Nga đã đánh thọc sườn các binh sĩ Kiev, những người không ngờ tới điều này ở New York.\n\nCụ thể, quân đội Nga theo hướng Toretsk đã tìm cách áp đặt các trận chiến lên đối phương khi tiến hành bất ngờ tấn công từ Gorlovka, đánh tạt sườn nhóm binh sĩ đối phương ở New York. Họ bắt đầu vượt qua các bãi mìn trên đường tiếp cận các đường phố ngoại ô Slavyanskaya, Armeyskaya và phố 8/3. Sau đó, lực lượng Moscow sẽ có thể tấn công các đội hình phòng thủ của Kiev trên sông Krivoi Torets.\n\nVới cuộc tấn công này, quân đội Nga buộc đối phương phải phân tán các đơn vị đồn trú vốn đã ít ỏi, để bao vây khu vực đột phá mới. Không rõ là liệu Ukraine có thể chặn đòn tấn công theo hai hướng cùng một lúc hay không. Tuy nhiên, lực lượng Moscow cũng phải đối mặt với một nhiệm vụ tham vọng hơn, ngăn chặn việc rút chạy của các đơn vị Kiev về ngoại ô phía nam Toretsk.\n\n"
+    },
+    {
+      "id": "a02b",
+      "topic": "Xã hội",
+      "title": "Tranh cãi bạn gái có nên \"chia tiền 50/50\" khi đi du lịch với người yêu",
+      "newsImage": "https://cdnphoto.dantri.com.vn/-1Dvh6cp4n6iXTQwBVpQvz8Wokc=/2024/06/13/93b391247926da788337-edited-1718269716573.jpeg",
+      "description": "(Dân trí) - Gần đây, mạng xã hội \"nổ\" ra nhiều tranh luận liên quan đến việc chia tiền khi đi du lịch trong giai đoạn hẹn hò. Một số người muốn sự sòng phẳng, số khác lại cho rằng như vậy không phải là yêu đương.\nTiền bạc được cho là vấn đề nhạy cảm trong các cuộc hẹn hò. Trong khi nhiều người quan niệm rằng \"cánh mày râu\" nên là người chi trả toàn bộ chi phí du lịch cho bạn gái, thì số khác lại cho rằng nam và nữ cần có sự san sẻ tiền bạc với nhau. \n\nĐỗ Hoàng My (25 tuổi, TP Thủ Đức) và bạn trai vừa kết thúc chuyến đi Đà Lạt 3 ngày 2 đêm cùng nhau, với tổng chi phí gần 4 triệu đồng. Với Hoàng My, việc chia tiền khi đi du lịch với người yêu còn phụ thuộc vào nhiều yếu tố, tùy theo quan điểm, tình hình tài chính và mối quan hệ giữa hai người.\n\n\"Trong đa số chuyến đi, chúng tôi đều quyết định chia 50/50 ngay từ đầu. Cả hai đều có tài chính riêng, việc san sẻ chi phí giúp giảm bớt gánh nặng kinh tế cho nhau và cảm thấy thoải mái hơn\", Hoàng My nói.\n\nTuy nhiên, cô cũng cho rằng việc chia đều chi phí có thể là cách hợp lý và công bằng cho nhiều cặp đôi, nhưng cũng tùy trường hợp. \"Nếu chuyến đi là một món quà từ người này dành cho người kia thì việc \"cưa đôi\" lại có vẻ không phù hợp\", cô nói thêm.\nTheo Hoàng My, quan trọng nhất là cả hai cần có sự đồng thuận ngay từ đầu. Với cô, sự rõ ràng này không phải là tính toán, mà giúp cả hai được thoải mái, vui vẻ hơn.\n\n\"Trường hợp nếu đối phương sẵn sàng chi 100% thì tôi sẽ tôn trọng, vì đó là mong muốn của họ. Nhưng tôi vẫn tìm cách đóng góp bằng việc trả vài khoản ăn uống hoặc mua quà lưu niệm cho họ\", Hoàng My nói.\n\nHoàng My cho rằng, để đỡ ngại trong việc chia tiền sau mỗi chuyến đi, cô và bạn trai thường sẽ ước chừng mức chi phí rồi lập quỹ nhóm đóng dần. Định kỳ mỗi tuần hay mỗi tháng, cả hai sẽ đóng một mức cụ thể vào quỹ chung cho đến khi đủ.\n\"Tôi thấy cách này khá hay vì giúp cả hai thoải mái hơn khi nói về tiền bạc. Đôi khi việc này còn khiến chúng tôi hào hứng hơn khi thấy quỹ chung ngày càng tăng và chuyến đi cũng dần đến ngày khởi hành\", cô nói.\n\nTương tự, Ngô Ngọc Yến (25 tuổi, Đồng Tháp) cho rằng việc chia tiền khi đi du lịch với người yêu là điều cần thiết. Các chuyến du lịch của Ngọc Yến và bạn trai hầu như đều chia đôi bằng hình thức đóng quỹ.\n\nTheo đó, cô và người yêu tạo một quỹ chung để đi du lịch, mỗi ngày cả hai đều góp vào đó 20.000 đồng, đến khi có nhu cầu thì rút ra sử dụng. Tiền rút ra từ quỹ thường để chi trả các khoản ăn uống, ngủ nghỉ, di chuyển cho chuyến đi…\n\n\"Việc tạo quỹ chung giúp cả hai đỡ khó xử trong việc phải chia tiền với nhau. Chúng tôi đều đã đi làm và tạo ra kinh tế, nên hoàn toàn có khả năng chi trả chi phí du lịch. Khi mình chủ động chia tiền, bản thân cũng cảm thấy thoải mái hơn, không mang cảm giác dựa dẫm hay phụ thuộc vào đối phương\", Ngô Ngọc Yến nói."
+    },
+    {
+      "id": "09c6",
+      "topic": "Kinh tế",
+      "title": "Cổ phiếu Tân Tạo giảm sàn bất chấp tuyên bố của bà Đặng Thị Hoàng Yến",
+      "newsImage": "https://cdnphoto.dantri.com.vn/Qu2whegrCKxvuhqe9TwVVA3DC3g=/thumb_w/1020/2024/07/05/anh-chup-man-hinh-2024-07-05-luc-162027-1720173497958.png",
+      "description": "(Dân trí) - ITA bị bán mạnh và giảm sàn sau \"hung tin\" sẽ bị đưa vào diện hạn chế giao dịch. Mới vài ngày trước, bà Đặng Thị Hoàng Yến nói đang cố gắng hết sức để đưa cổ phiếu tăng trần trở lại.\nĐến phiên hôm nay (6/7), VN-Index đã vượt ngưỡng 1.280 điểm. Dù vậy, thị trường rung lắc và giao dịch tương đối căng thẳng.\n\nĐóng cửa, chỉ số đại diện sàn HoSE lấy lại được trạng thái tăng, cộng thêm 3,15 điểm so với hôm qua, tương ứng tăng 0,25% lên 1.283,04 điểm. VN30-Index tăng 5,55 điểm tương ứng 0,42%. HNX-Index nhích nhẹ 0,43 điểm tương ứng 0,18% và UPCoM-Index giữ mức tham chiếu.\n\nNhư vậy các chỉ số trên thị trường đều \"bật xanh\", tuy nhiên, độ rộng thị trường lại nghiêng về phía các mã giảm. Với 478 mã giảm giá so với 414 mã tăng giá, chứng khoán phiên này rơi vào tình trạng \"xanh vỏ đỏ lòng\".\n\nThanh khoản thị trường chưa cho thấy sự cải thiện đáng kể khi mà khối lượng giao dịch trên HoSE mới chỉ dừng ở mức 616,5 triệu cổ phiếu tương ứng 15.998,18 tỷ đồng. HNX có 58,03 triệu cổ phiếu giao dịch tương ứng 1.161,18 tỷ đồng và con số này trên UPCoM là 60,08 triệu cổ phiếu tương ứng 828,92 tỷ đồng.\nỞ phiên hôm nay, cổ phiếu ITA của Tập đoàn Tân Tạo bị bán mạnh và giảm sàn về mức 4.880 đồng sau thông báo của HoSE về việc đưa cổ phiếu này vào diện hạn chế giao dịch.\n\nThông báo của HoSE nêu rõ, đến thời điểm hiện tại, ITA chưa thực hiện công bố thông tin báo cáo tài chính kiểm toán năm 2023, thuộc trường hợp chứng khoán bị hạn chế giao dịch theo quy định.\n\nTrước đó, ngày 23/4/2024, HoSE đã có công văn nhắc nhở công ty về việc chậm nộp báo cáo tài chính kiểm toán năm 2023 và báo cáo thường niên năm 2023. Đồng thời, Ủy ban Chứng khoán Nhà nước (UBCKNN) đã có công văn phản hồi cho công ty về việc tạm hoãn công bố thông tin.\n\nNgày 24/6, Tân Tạo có công văn phản hồi thông tin đến UBCKNN và HoSE, tuy nhiên công ty không cung cấp các tài liệu, bằng chứng làm cơ sở cho việc tạm hoãn báo cáo tài chính kiểm toán năm 2023, báo cáo thường niên năm 2023 vì lý do bất khả kháng.\n\nTại phiên họp đại hội đồng cổ đông thường niên năm 2024 diễn ra mới đây, vấn đề này được một cổ đông đặt ra với lãnh đạo Tân Tạo. Ông Nguyễn Thanh Phong - Tổng giám đốc công ty - nói công ty gặp khó khăn trong việc tìm đơn vị kiểm toán. Vì vụ việc bất khả kháng nên Tân Tạo đã có văn bản xin HoSE và UBCKNN cho tạm hoãn công bố thông tin 2 tài liệu này theo quy định.\n\nCũng ở phiên họp trên, bà Đặng Thị Hoàng Yến - Chủ tịch tập đoàn - nói với cổ đông rằng, kể từ tháng 5/2022, Tân Tạo đã \"bị nhiều thế lực xấu đứng sau phá hoại nhằm thâu tóm\". Công ty đã phải cố gắng đấu tranh để đi tìm công lý, đòi lại công bằng và đền bù thiệt hại cho các cổ đông, nhà đầu tư trong, ngoài nước bằng cách khởi kiện ra tòa án quốc tế. Việc xử lý vụ kiện đang trong quá trình được giải quyết. Bà Yến nói Tân Tạo đang cố gắng hết sức để đưa cổ phiếu ITA tăng trần trở lại.\n\nTrở lại với diễn biến ITA, thanh khoản cổ phiếu này tăng mạnh ở phiên hôm nay, khối lượng giao dịch lên tới 18,4 triệu đơn vị (phiên trước chỉ giao dịch gần 826.000 đơn vị). Tại mức thị giá hiện tại, ITA đã \"bốc hơi\" tới 24,5% so với đầu năm.\n\nBên cạnh ITA, một số mã bất động sản khác cũng bị điều chỉnh như DXG giảm 3,9%; CCL giảm 2,3%; VRE giảm 2,1%; HPX giảm 2,1%; QCG giảm 2%; HAR giảm 1,8%; NVL giảm 1,5%...\n\nNhiều mã cổ phiếu chứng khoán giảm, song hoạt động bán ra không quá mạnh. DSE giảm 3,9%; APG giảm 3,1%; CSI giảm 2,7%; TVS giảm 2,3%; APS giảm 1,4%; ORS giảm 1,1%; BSI giảm 1,1%; HBS giảm 1%; VIX, HCM, FTS, CTS, HSH, TVB, VCI, BVS đều giảm giá.\n\nCổ phiếu thủy sản phiên này tăng khá tốt. ATA và CAD tăng trần trên UPCoM, AGF tăng 7,4% và SSN tăng 6,3%; tuy nhiên các mã này có thanh khoản thấp. CMX tăng 5,3%; ICF tăng 3,5%; VHC, ANV và FMC cũng đạt được trạng thái tăng nhẹ.\n\nPhiên này, HVN, FPT, LPB, CTG và VNM là những cổ phiếu ảnh hưởng tích cực nhất đến VN-Index. Theo đó, riêng HVN đóng góp 1,19 điểm cho VN-Index; FPT đóng góp 0,92 điểm.\n"
+    },
+    {
+      "id": "7afd",
+      "topic": "Giáo dục",
+      "title": "Đứa trẻ thi rớt lớp 10: \"Con đã cố hết sức, bố mẹ đừng chửi con nữa\"",
+      "newsImage": "https://cdnphoto.dantri.com.vn/HWtm2OeZ8vyxKAarAb_h7T_rWgs=/thumb_w/1020/2024/07/05/rot-lop102-1720160662368.jpg",
+      "description": "(Dân trí) - \"Con đã cố gắng hết sức, mong bố mẹ đừng chửi con nữa\", đó là điều H. muốn nói với bố mẹ nhưng em không dám mở lời. H. đăng trạng thái đó lên mạng xã hội như để chia sẻ nỗi lòng rớt lớp 10.\nH. vừa trải qua kỳ thi vào lớp 10 ở TPHCM vừa qua. Em rớt hết cả 3 nguyện vọng khi điểm thi không tốt, các trường em đăng ký lại đều nằm trong nhóm tăng điểm chuẩn.\n\nRớt lớp 10 là nỗi ám ảnh bám riết lấy H. từ nhiều năm nay, đến khi thi xong, nỗi sợ đó càng rõ rệt hơn khi em làm bài không như mong muốn.\n\nĐứa trẻ thi rớt lớp 10: Con đã cố hết sức, bố mẹ đừng chửi con nữa - 1\nNhững nỗi lòng của con trẻ trước kết quả rớt lớp 10 (Ảnh chụp lại màn hình).\n\nNgày 3/7, ngày có điểm chuẩn, biết chắc mình đã rớt, hóa ra nỗi sợ thi rớt với H. không đáng sợ bằng việc phải đối diện với bố mẹ, phải nghe những lời la mắng, chửi bới từ bố mẹ.\n\nH. kể, ngày có điểm chuẩn, mẹ cầm cả bình nước ném vỡ toang giữa nhà rồi òa khóc nức nở.\n\nH. lại ôm lấy mẹ nhưng bị bà hất ra, kèm đủ lời chê bai con bằng những từ ngữ nặng nề như ngu dốt, kém cỏi, vô tích sự… và cả ví với con vật này, con vật nọ.  \n\nĐứa con đứng đó nhìn mẹ đầy mặc cảm tội lỗi, khổ sở.\n\nH. kiệm lời hơn nhưng em lại như mất hết năng lượng trước sự não nề trên khuôn mặt của bố. Ông buông ra lời nào ý như rằng H. sẽ thấy mình thật kém cỏi, yếu đuối, vô dụng…\n\nKhi thấy H. cầm ly nước, chén cơm, ông nói ngay: \"Mày vẫn nuốt trôi được hả?\" làm cổ họng đứa trẻ nghẹn đắng.\n\"Con đã cố hết sức, bố mẹ đừng chửi con nữa\", đây là điều H. muốn nói với bố mẹ nhưng em không dám mở lời. H. đăng tâm sự lên mạng xã hội lúc 1h sáng như có chỗ nói để ra lòng mình.\n\nDù rằng ở đó, em tiếp tục nhận về nhiều lời chỉ trích \"ai bảo không lo học\", \"thi rớt cả 3 nguyện vọng còn trách ai\"...  từ những người xa lạ. Đâu đó, cũng có vài lời an ủi, động viên em. \n\nCon rớt, bố mẹ tiếc… công đưa đón\n\nNgày 3/7, Sở GD&ĐT TPHCM công bố điểm chuẩn lớp 10. Ngay cạnh những tiếng hò reo, cạnh những bài viết khoe con thi đậu, điểm cao, thừa điểm còn là nước mắt, tiếc nuối lẫn khổ đau của hàng ngàn đứa trẻ, hàng ngàn gia đình trước kết quả thi lớp 10.\n\nChị Ng.M.T. (nhà ở Gò Vấp, TPHCM) cho biết không khí gia đình chị vô cùng nặng nề, ngột ngạt sau khi có điểm chuẩn lớp 10. Con gái chị thi điểm không quá thấp nhưng đặt nguyện vọng vào những trường có điểm chuẩn tăng nên rớt hết.\nCũng như nhiều gia đình khác, hai năm nay, bắt đầu từ năm con lớp 8 vợ chồng chị luân phiên nhau đưa đón con đi học thêm ôn thi vào lớp 10.\n\nNgoài giờ học chính khóa ở trường, mỗi tối và cuối tuần ngày 2-3 buổi anh chị lại đón đưa, chờ đợi cháu ở lớp học thêm không kể ngày nắng ngày mưa…\n\nChưa tính những năm trước đó, từ khi con học tiểu học, bố mẹ đã thường xuyên xếp lịch cho con học thêm, đưa đi đón về. Chi phí cho việc học thêm của con cũng chiếm một khoản lớn trong chi tiêu của gia đình.\n\nĐợt con thi lớp 10, vợ chồng chị T. còn xin nghỉ việc cả nhà rồng rắn đưa con đi thi, ngồi chờ trước cổng trường động viên, cổ vũ tinh thần cháu.\n\nVới người mẹ, tất cả những công sức bao năm của cả gia đình đã đổ sông đổ bể khi con… rớt hết các nguyện vọng. Chị im lặng không nói nhưng chồng chị, mấy hôm nay không ngừng trách con phụ công bố mẹ, rồi quay sang trách vợ bắt con học chỉ tốn công tốn sức, tiền bạc. \n\nNhiều ngày qua, con gái chị T. giam mình trong phòng. Cha mẹ con cái  chưa thể bình tâm để bàn về phương án sắp tới con sẽ học ở đâu.\n\nKhông chỉ H. hay con gái chị T., chỉ riêng tại TPHCM, dựa vào số thí sinh dự thi và chỉ tiêu, có hơn 20.000 học sinh rớt khỏi lớp 10 trong kỳ thi năm nay. Sau ngày công bố điểm chuẩn, còn rất nhiều đứa trẻ như H. và nhiều gia đình như gia đình chị T. đang phải đối diện với cảnh thi rớt, con rớt.\n\nNgay trong mùa thi lớp 10 năm nay, trên mạng xã hội liên tục chia sẻ tình huống khi con thi rớt, con buồn hay bố mẹ buồn hơn, con hay bố mẹ đau hơn làm nhiều người ngậm ngùi.\n\nTình huống này phần nào nói lên nỗi buồn thê thảm của bố mẹ khi con thi rớt. Và phía sau \"nỗi buồn của ba mẹ\" cũng là áp lực kinh khủng, đáng sợ với nhiều đứa trẻ.\n\nBà Nguyễn Ngọc Vy, chuyên viên tâm lý học đường ở TPHCM cho hay, bố mẹ càng đổ nhiều công sức, kỳ vọng thì càng thất vọng, đau khổ khi con thi rớt. Trong tình huống này, các con cũng cần hiểu cho tâm trạng, lo lắng của bố mẹ. Lúc này vì đau khổ, người lớn có thể mất kiểm soát, có những lời lẽ không hay. "
+    },
+    {
+      "id": "a60f",
+      "topic": "Giáo dục",
+      "title": "Điểm thi lớp 10 trung bình của một trường tư cao hơn điểm chuẩn toàn Hà Nội",
+      "newsImage": "https://cdnphoto.dantri.com.vn/K2g8Hq_GQjWGdNmaN3pe08lsFa0=/thumb_w/1020/2024/07/05/phan-sy-hung-phong-1720148568694.jpeg",
+      "description": "(Dân trí) - Trường THCS Archimedes công bố thành tích thi lớp 10 của học sinh trường này với mức điểm trung bình là 42,6.\nTheo đó, điểm trung bình môn toán là 8,92 và 95% học sinh Archimedes đạt từ 8 điểm toán trở lên. Mức điểm từ 9 trở lên là 40%.\n\nĐiểm trung bình môn tiếng Anh là 9,19. 91% học sinh đạt từ 8 điểm trở lên và 71% học sinh đạt từ 9 điểm trở lên.\n\nMôn văn có điểm trung bình thấp nhất là 7,98. Có 60% học sinh đạt từ 8 điểm văn trở lên.\n\nVới điểm trung bình xét tuyển vào lớp 10 công lập là 42.6, 96% học sinh trường Archimedes đỗ nguyện vọng 1, đạt trung bình 8,52 điểm/môn.\n\nMức điểm trung bình này cũng cao hơn điểm chuẩn của tất cả các trường THPT công lập tại Hà Nội.\n\nMột trường THCS ngoài công lập khác cũng đạt điểm trung bình thi lớp 10 cao hơn điểm chuẩn vào Trường THPT Chu Văn An là Trường THCS Lương Thế Vinh.\n\nCụ thể, điểm trung bình môn toán của trường là 8,66, điểm trung bình môn tiếng Anh là 9,05 và điểm trung bình môn văn là 7,98.\n\nHiện giữ vị trí đứng đầu về điểm trung bình xét tuyển lớp 10 công lập là Trường THCS Cầu Giấy với 43,18 điểm, trung bình 8,63 điểm/môn. \n\nCụ thể, điểm trung bình môn toán là 8,78; điểm trung bình môn văn là 8,19; điểm trung bình môn tiếng Anh là 9,24.\n\nTrường Cầu Giấy là trường công lập chất lượng cao của thành phố.\n\nTuy nhiên, về thành tích thi lớp 10 chuyên, trường Archimedes đang dẫn đầu về số lượt học sinh đỗ chuyên.\n\nToàn trường có 463 lượt đỗ chuyên với 193 lượt đỗ các trường chuyên của Sở, 104 lượt đỗ THPT Chuyên Khoa học Tự nhiên, 60 lượt đỗ THPT Chuyên Ngoại ngữ, 105 lượt đỗ THPT Chuyên Sư phạm và 1 lượt đỗ THPT Chuyên Khoa học xã hội và Nhân văn.\n\nHai lớp 9C1 và 9C3 của trường có 100% học sinh đỗ chuyên với nhiều em đỗ từ 2 chuyên trở lên, một số học sinh đỗ thủ khoa, á khoa.\n\nThái Hồng Quỳnh Chi đỗ thủ khoa chuyên hóa trường Ams, á khoa kỳ thi lớp 10 công lập. Em đồng thời đỗ chuyên hóa chuyên Sư phạm cỗ chuyên Pháp chuyên Ngoại ngữ.\n\nPhan Sỹ Hùng Phong đỗ thủ khoa chuyên Khoa học tự nhiên,  á khoa chuyên hóa chuyên Sư phạm.\n\n"
+    },
+    {
+      "id": "7ea0",
+      "topic": "Thể thao",
+      "title": "Đá hỏng penalty, Messi hết lời ca ngợi thủ môn Emiliano Martinez",
+      "newsImage": "https://cdnphoto.dantri.com.vn/bSWGbaoBZjuFBHBsVPNik6dPSoU=/thumb_w/1020/2024/07/05/messi35-7-24-1720169732215.png",
+      "description": "(Dân trí) - Đội trưởng đội tuyển Argentina là người duy nhất bên phía đội bóng xứ sở Tango đá hỏng luân lưu ở trận đấu với Ecuador sáng nay (5/7). Ngôi sao CLB Inter Miami lên tiếng về pha đá hỏng này.\nLịch thi đấu và kết quả tứ kết Copa America 2024\n\n08h00 ngày 5/7: Argentina 1-1 Ecuador (Penalty 4-2)\n\n08h00 ngày 6/7: Venezuela - Canada\n\n05h00 ngày 7/7: Colombia - Panama\n\n08h00 ngày 7/7: Uruguay - Brazil\n\nỞ trận đấu tứ kết Copa America 2024 tại Mỹ gặp Ecuador, Argentina thắng 4-2 trong loạt sút luân lưu, sau khi đôi bên hòa nhau 1-1 ở giờ thi đấu chính thức. Dù vậy, Messi lại là người sút hỏng quả 11m đầu tiên của đội tuyển Argentina.\n\nCầu thủ 8 lần giành Quả bóng vàng sút theo kiểu Panenka (bấm bóng vào giữa khung thành), nhưng bóng leo xà và đi ra ngoài.\nSau trận đấu, Messi lên tiếng: \"Thật ra tôi đã tập sút luân lưu rất nhiều với các thủ môn Martinez và Rulli (thủ môn số một và số hai của đội tuyển Argentina). Trong các buổi tập, chủ yếu tôi sút chéo về hai góc\".\n\n\"Lần này tôi quan sát thấy thủ môn đối phương đổ về góc khung thành, tôi sút vào giữa nhưng lực sút hơi mạnh, bóng đi cao hơn dự tính của tôi\", Messi nói thêm.\n\nCũng theo Messi, đội tuyển Argentina đã chuẩn bị cho loạt sút luân lưu trước giờ bóng lăn. Đá luân lưu là việc thường xảy ra ở các trận đấu loại trực tiếp thuộc Copa America.\nThể thức thi đấu của giải này rất khác biệt, các trận tứ kết và bán kết, cũng như trận tranh hạng ba không có hiệp phụ, nếu hai đội hòa sau hai hiệp chính, đôi bên sẽ sút luân lưu ngay. Với thể thức này, xác suất sút luân lưu của các đội bóng tham dự Copa America rất cao.\n\nMessi cho biết: \"Tôi đã nói với các đồng đội rằng chúng tôi phải bình tĩnh nếu trận đấu xuất hiện loạt sút luân lưu. Chúng tôi có rất nhiều niềm tin vào thủ môn Emiliano Martinez. Tôi biết cậu ấy luôn có mặt ở đó trong những khoảnh khắc quan trọng\".\n\n\"Thật tuyệt khi Emiliano Martinez đứng ở đó. Cậu ấy thể hiện tuyệt vời khi đứng trong khung thành\", Messi dành lời khen cho thủ môn đàn em ở đội tuyển Argentina.\n\nVề phía HLV Scaloni, vị HLV của đội tuyển Argentina chia sẻ: \"Tôi tự tin với dàn cầu thủ sút luân lưu của đội mình. Tôi liệt kê ra 5 cái tên sút những quả 11m và tất cả mọi người đều đồng ý\".\n\n\"Các cầu thủ của tôi luôn tự tin khi đá luân lưu, họ đã vượt qua những loạt sút này vài lần. Điều đó thật tốt\", HLV Scaloni vui mừng sau khi Argentina giành chiến thắng và lọt vào bán kết."
+    },
+    {
+      "id": "d280",
+      "topic": "Văn hóa và giải trí",
+      "title": "Suni Hạ Linh nhận 2 giải thưởng, trượt nhóm thành đoàn tại \"Đạp gió 2024\"",
+      "newsImage": "https://cdnphoto.dantri.com.vn/GAoi5atOkJFCj8Qod9fOTNsLRgw=/thumb_w/1020/2024/07/05/suni-6-1720167033598.jpeg",
+      "description": "(Dân trí) - Trong chung kết \"Đạp gió 2024\", Suni Hạ Linh khoe giọng hát nhiều hơn thay vì nhảy, khoe khả năng vũ đạo như các phần thi trước đó.\nNgày 5/7, chung kết Đạp gió 2024 lên sóng đài truyền hình Hồ Nam (Trung Quốc). Ở tập này, Suni Hạ Linh về chung đội với ca sĩ Tát Đỉnh Đỉnh, diễn viên Thích Vy, Thái Văn Tịnh và Hà Khiết. Nhóm của Suni Hạ Linh thể hiện ca khúc nổi tiếng ở Trung Quốc có tên Ánh trăng trên cao.\nTrong vòng thi cuối cùng, Suni Hạ Linh gây ấn tượng khi khoe giọng nhiều hơn, thay vì trình diễn vũ đạo như các phần thi trước đó. Trong tiết mục Ánh trăng lên cao, nữ ca sĩ Việt Nam hát mở màn cùng diva Tát Đỉnh Đỉnh.\n\nMặc dù đây là lần đầu tiên Suni Hạ Linh về chung đội với Tát Đỉnh Đỉnh, cô vẫn có màn kết hợp ăn ý với diva Trung Quốc. Tiết mục nhóm của Suni Hạ Linh được đánh giá ấn tượng.\n\nKết quả, Suni Hạ Linh, Tát Đỉnh Đỉnh, Thích Vy, Thái Văn Tịnh và Hà Khiết nhận 938 điểm từ khán giả bình chọn, trở thành tiết mục thi nhóm có số điểm cao nhất trong đêm chung kết. "
+    },
+    {
+      "id": "8af2",
+      "topic": "Văn hóa và giải trí",
+      "title": "Hé lộ nhân tố bí ẩn đứng sau thành công của nữ ca sĩ tỷ USD Taylor Swift",
+      "newsImage": "https://cdnphoto.dantri.com.vn/kNxkifgI1n9qE0y0LKkASVcegxY=/thumb_w/1020/2024/07/05/taylor-swift-2-1720151893759.jpg",
+      "description": "(Dân trí) - Nữ ca sĩ người Mỹ Taylor Swift được xem là một trong những ngôi sao giải trí nổi tiếng và có ảnh hưởng nhất hiện nay. Cô sở hữu khối tài sản 1,3 tỷ USD và là một biểu tượng của phụ nữ hiện đại.\nThành công rực rỡ và khối tài sản tỷ USD của Taylor Swift\n\nTaylor Swift (SN 1989) được xem là một biểu tượng nhạc pop và một ngôi sao có ảnh hưởng mạnh mẽ trên thế giới, phá vỡ mọi khuôn mẫu được thiết lập trước đó. Tạp chí Times đánh giá Taylor Swift là một trong những nghệ sỹ quan trọng nhất của thế hệ hiện tại, với những ảnh hưởng lớn đến văn hóa đương đại. \nNgôi sao sinh năm 1989 hiện có hơn 283 triệu người đăng ký theo dõi trên Instagram và 33 triệu người theo dõi trên TikTok. Sự nghiệp rực rỡ của cô gắn liền với những bài hát xếp hạng hàng đầu và chính Taylor có tác động mạnh mẽ tới phụ nữ toàn cầu. \n\nTính tới tháng 5, tờ Forbes vinh danh Taylor Swift vào danh sách tỷ phú USD toàn cầu khi nữ ca sĩ sở hữu 1,3 tỷ USD. Đặc biệt, chuyến lưu diễn toàn cầu The Eras Tour của Taylor Swift bắt đầu từ tháng 3/2023 được ghi nhận vượt ngưỡng 1 tỷ USD doanh thu thương mại và có ảnh hưởng mạnh mẽ. \n\nMới đây, các quan chức thành phố Gelsenkirchen tại Đức đã quyết định tạm thời đổi tên thành phố thành Swiftkirchen nhằm chào mừng sự có mặt của Taylor Swift và chuyến lưu diễn The Eras Tour của cô đến với thành phố này.\n\nĐược biết, việc đổi tên ban đầu được đề xuất bởi một người hâm mộ. Người này đã kiến nghị và viết thư trực tiếp tới thị trưởng thành phố. Không chỉ đổi tên thành phố theo họ của nữ ca sĩ, thành phố còn mang đến những chiếc \"xe điện Taylor Swift\" chạy quanh thành phố."
+    },
+    {
+      "id": "5956",
+      "topic": "Khoa học và công nghệ",
+      "title": "Lần đầu tiên trong lịch sử, một cựu nhân viên Microsoft giàu hơn Bill Gates",
+      "newsImage": "https://cdnphoto.dantri.com.vn/SFRfTy6tdSmmc_lv1kJMyzk6Ots=/thumb_w/1020/2024/07/03/steve-ballmer-1719997034461.jpg",
+      "description": "(Dân trí) - Lần đầu tiên trong lịch sử có một người từng làm việc cho Microsoft sở hữu tài sản lớn hơn Bill Gates, nhà sáng lập của công ty này. Người đó không ai khác chính là bạn thân của Gates - Steve Ballmer.\nNhắc đến Microsoft, nhiều người sẽ nghĩ ngay đến Bill Gates, nhà sáng lập của công ty đồng thời là người đàn ông nắm giữ ngôi vị \"người giàu nhất thế giới\" trong thời gian lâu nhất.\n\nDù đến nay Bill Gates đã rời bỏ Microsoft từ lâu và không còn là người giàu nhất thế giới, ông vẫn luôn là người giàu nhất từng làm việc tại Microsoft.\n\nTuy nhiên, mới đây, một cựu nhân viên của Microsoft đã lần đầu tiên sở hữu khối tài sản vượt qua Bill Gates.\nTheo đó, khối tài sản của Steve Ballmer, cựu CEO của Microsoft, đồng thời là bạn thân của Bill Gates, đã tăng vọt lên mức 158 tỷ USD, giúp ông trở thành người giàu thứ 6 thế giới, đẩy nhà sáng lập Microsoft Bill Gates xuống vị trí thứ 7 trong danh sách những người giàu nhất hành tinh.\n\nHiện khối tài sản của Steve Ballmer còn lớn hơn tài sản của 2 nhà đồng sáng lập Google, Sergey Brin và Larry Page, hay chủ tịch Nvidia Jensen Huang…\n\nSự tăng trưởng khối tài sản của Steve Ballmer liên quan đến đợt tăng giá cổ phiếu ấn tượng của Microsoft trong năm nay. Từ tháng 1 cho đến nay, giá cổ phiếu của Microsoft đã có mức tăng ước tính đạt 22%. Trong khi đó, 90% khối tài sản của Steve Ballmer là cổ phiếu của Microsoft, dù ông đã rời khỏi công ty từ lâu.\n\nSteve Ballmer là bạn thân của Bill Gates. Năm 1980, Steve Ballmer gia nhập Microsoft với tư cách nhân viên thứ 30 và là người quản lý kinh doanh đầu tiên của công ty.\n\nBallmer gia nhập Microsoft mà không nhận bất kỳ cổ phần nào của công ty, thay vào đó, Ballmer nhận mức lương 50.000 USD và 10% lợi nhuận của công ty. Tuy nhiên, Ballmer sau đó từ bỏ khoản tiền thưởng lợi nhuận để đổi lấy 8% cổ phần của Microsoft.\n\nNăm 2000, Steve Ballmer được bổ nhiệm làm CEO của Microsoft, thay thế cho Bill Gates. Ông trở thành vị CEO thứ 2 tại Microsoft. Trong thời gian đảm nhiệm chức vụ CEO Microsoft, Ballmer đã lãnh đạo công ty qua nhiều giai đoạn phát triển và ra mắt nhiều sản phẩm thành công như Windows XP, Windows 7, máy chơi game Xbox…\n\nDưới sự lãnh đạo của Ballmer, Microsoft đã mở rộng và tiến sâu hơn vào thị trường phần cứng và dịch vụ đám mây, thay vì chỉ là một công ty phần mềm đơn thuần như trước đây.\n\nTháng 2/2014, Ballmer rời khỏi Microsoft và nhường lại chiếc ghế CEO của công ty cho Satya Nadella. Đến thời điểm hiện tại, Ballmer vẫn đang nắm giữ 4% cổ phần tại Microsoft, trong khi đó nhà sáng lập công ty Bill Gates chỉ còn nắm giữ 1% cổ phần.\n\nKhi Ballmer rời khỏi Microsoft, ông tuyên bố sẽ nắm giữ cổ phần Microsoft cho đến khi ông qua đời hoặc dùng hết tài sản của mình cho mục đích từ thiện. Chính việc vẫn \"trung thành\" với cổ phiếu của Microsoft đã giúp khối tài sản của Ballmer tăng mạnh như hiện nay.\n\nVới khối tài sản 158 tỷ USD, Ballmer không chỉ là nhân viên Microsoft đầu tiên giàu hơn Bill Gates, mà đáng chú ý, ông là người duy nhất đạt được khối tài sản trên 100 tỷ USD từ vị trí nhân viên, thay vì một nhà sáng lập công ty.\n\nHiện Elon Musk vẫn đang là người giàu nhất thế giới, với khối tài sản 241 tỷ USD, bỏ xa người đứng thứ 2 là Jeff Bezos, với tài sản ước tính đạt 222 tỷ USD. Trong số 10 người giàu nhất thế giới hiện nay, có đến 8 tỷ phú trong lĩnh vực công nghệ.\n\n"
+    },
+    {
+      "id": "1e35",
+      "topic": "Sức khỏe",
+      "title": "Hãy bỏ bài tập cơ bụng cổ điển và thay bằng tư thế đơn giản này",
+      "newsImage": "https://cdnphoto.dantri.com.vn/MRb2blKVRZYzsgYspKGIKrCAfC4=/thumb_w/1020/2024/07/04/theduc1-1720104532858.jpg",
+      "description": "(Dân trí) - Theo Trường Y Harvard, bài tập sit-up (ngồi lên) từng được coi là cách để có cơ bụng săn chắc và vòng eo thon gọn hơn. Tuy nhiên, giờ đây, các bài tập plank là tiêu chuẩn vàng để rèn luyện cơ lõi.\nTăng cường sức mạnh cơ lõi\n\nSit-up (ngồi lên) thuộc bài tập bụng cổ điển được thực hiện bằng cách nằm ngửa và sử dụng trọng lượng cơ thể để nâng thân lên, tăng cường và săn chắc cơ bụng. Bài tập này cũng sẽ tác động đến các phần cơ lưng và cơ mông.\n\nTuy nhiên, giờ đây, các bài tập plank hay tư thế \"tấm ván\" lại là tiêu chuẩn vàng để rèn luyện cơ cốt lõi của bạn. Trong khi đó, các động tác gập bụng và sit-up cổ điển đã không còn được ưa chuộng.\n\nTăng cường sức mạnh cơ lõi của bạn là một trong những điều tốt nhất bạn có thể làm cho sức khỏe của mình khi có tuổi. Các bài tập cơ lõi không chỉ giúp giảm đau mà còn cải thiện khả năng giữ thăng bằng và tăng tính linh hoạt của bạn.\nĐể thể hiện tốt ở hầu hết mọi môn thể thao, bạn cần có một cơ thể khỏe mạnh. Cơ lõi khỏe hơn cũng giúp cuộc sống hàng ngày trở nên dễ dàng hơn, dẫn đến ít chấn thương hơn, tư thế và thăng bằng tốt hơn cũng như ít đau lưng hơn.\n\nTheo The NewYork Times, cơ lõi không chỉ là cơ bụng của bạn. Cơ bụng chỉ là một trong những nhóm cơ chính cấu thành nên phần cốt lõi, nó bao gồm cả các cơ sâu ở xương chậu, hông, lưng của bạn, cơ hoành…\n\nNếu bạn không có cơ cốt lõi khỏe mạnh, bạn sẽ mất đi sức mạnh. Nếu các cơ cốt lõi yếu, các dây chằng ở lưng có thể bị căng, gây đau lưng. Cơ lõi cũng mang lại cho bạn sự ổn định.\n\nĐể cải thiện sức bền cơ lõi, Sivan Fagan, một huấn luyện viên thể hình có trụ sở tại Maryland (Mỹ), yêu cầu khách hàng của mình thực hiện các bài tập như plank nghiêng. Những bài tập này tác động đến các cơ sâu bên trong như cơ sàn chậu, cơ bụng ngang, cơ bụng trong cùng gắn vào xương sườn, xương chậu và cột sống, nhóm cơ lưng quan trọng chạy dọc theo cột sống…"
+    }
+  ]
+}
